@@ -12,6 +12,8 @@ export default class Skills extends Component {
                         >
                             <span className="heading-meta">My Specialty</span>
                             <h2 className="colorlib-heading animate-box">My Skills</h2>
+
+                            <p>These are the technologies I wield for work!</p>
                         </div>
                     </div>
                     <div className="row">

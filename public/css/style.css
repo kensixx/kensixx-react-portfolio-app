@@ -49,8 +49,7 @@ figure {
     width: 80%;
     margin: 20px auto 0px auto;
     color: #b3b3b3;
-    font-style: italic;
-    font-family: "Quicksand", Arial, sans-serif; }
+    font-style: italic;font-family: "Quicksand", Arial, sans-serif; }
     @media screen and (max-width: 480px) {
       figure figcaption {
         width: 100%; } }
@@ -198,22 +197,60 @@ figure {
         position: relative;
         bottom: 0; } }
     #colorlib-aside .colorlib-footer span {
-      display: block; }
+      display: block;
+    }
+
     #colorlib-aside .colorlib-footer ul {
       padding: 0;
-      margin: 0; }
-      #colorlib-aside .colorlib-footer ul li {
-        padding: 0;
-        margin: 0;
-        display: inline;
-        list-style: none; }
-        #colorlib-aside .colorlib-footer ul li a {
-          color: rgb(0, 0, 0, 1);
-          padding: 4px; }
-          #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
-            text-decoration: none;
-            outline: none;
-            color: #2c98f0; }
+      margin: 0;
+    }
+
+    #colorlib-aside .colorlib-footer ul li {
+      padding: 0;
+      margin: 0;
+      display: inline;
+      list-style: none;
+    }
+
+    #colorlib-aside .colorlib-footer ul li a {
+      color: rgb(0, 0, 0, 1);
+      padding: 4px;
+    }
+
+    #colorlib-aside .colorlib-footer ul li a:hover,
+    #colorlib-aside .colorlib-footer ul li a:active,
+    #colorlib-aside .colorlib-footer ul li a:focus {
+      text-decoration: none;
+      outline: none;
+      color: #2c98f0;
+    }
+
+    #colorlib-aside .social-contact ul {
+      padding: 0;
+      margin: 0;
+      margin-top: -2rem;
+      margin-bottom: 1rem;
+    }
+
+    #colorlib-aside .social-contact ul li {
+      padding: 0;
+      margin: 0;
+      display: inline;
+      list-style: none;
+    }
+
+    #colorlib-aside .social-contact ul li a {
+      color: rgb(0, 0, 0, 1);
+      padding: 4px;
+    }
+
+    #colorlib-aside .social-contact ul li a:hover,
+    #colorlib-aside .social-contact ul li a:active,
+    #colorlib-aside .social-contact ul li a:focus {
+      text-decoration: none;
+      outline: none;
+      color: #2c98f0;
+    }
 
 .container-wrap {
   max-width: 1170px;

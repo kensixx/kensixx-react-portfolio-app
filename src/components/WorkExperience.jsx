@@ -17,7 +17,7 @@ export default class WorkExperience extends Component {
                       <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                         <div className="timeline-entry-inner">
                           <div className="timeline-icon color-1">
-                            <i className="icon-pen2" />
+                            <i className="icon-briefcase" />
                           </div>
                           <div className="timeline-label">
                             {/* eslint-disable-next-line */}
@@ -26,12 +26,12 @@ export default class WorkExperience extends Component {
                               <li>Maintaining a Spring Boot-powered microservice that uses AWS S3 to store and manage files in the system.</li>
                               <li>
                                 Created a MEAN full stack system to gather and generate reports of Pa-iwi Online (Pa-iwi Reports) 
-                                <a href="http://report.paiwionline.com" target="_blank" rel="noopener noreferrer">(report.paiwionline.com)</a>
+                                <a href="http://report.paiwionline.com" target="_blank" rel="noopener noreferrer"> (report.paiwionline.com)</a>
                               </li>
                               <li>
                                 Maintaining a codebase for a major system created by the
                                 company; an investment and livestock tracker - Pa-iwi Online
-                                <a href="https://www.paiwionline.com" target="_blank" rel="noopener noreferrer">(www.paiwionline.com)</a>
+                                <a href="https://www.paiwionline.com" target="_blank" rel="noopener noreferrer"> (www.paiwionline.com)</a>
                               </li>
                               <li>
                                 Created a prototype Human Resource Information System for
@@ -45,7 +45,7 @@ export default class WorkExperience extends Component {
                       <article className="timeline-entry animate-box" data-animate-effect="fadeInRight">
                         <div className="timeline-entry-inner">
                           <div className="timeline-icon color-2">
-                            <i className="icon-pen2" />
+                            <i className="icon-briefcase" />
                           </div>
                           <div className="timeline-label">
                             {/* eslint-disable-next-line */}
