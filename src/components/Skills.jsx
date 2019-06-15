@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export default class Skills extends Component {
     render() {
@@ -10,101 +10,32 @@ export default class Skills extends Component {
                             className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                             data-animate-effect="fadeInLeft"
                         >
-                            <span className="heading-meta">My Specialty</span>
-                            <h2 className="colorlib-heading animate-box">My Skills</h2>
-
-                            <p>These are the technologies I wield for work!</p>
+                            <span className="heading-meta">Skills</span>
+                            <h2 className="colorlib-heading animate-box">The technologies I wield for work</h2>
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                            <div className="progress-wrap">
-                                <h3>MEAN Stack</h3>
-                                <div className="progress">
-                                    <div
-                                        className="progress-bar color-1"
-                                        role="progressbar"
-                                        aria-valuenow={90}
-                                        aria-valuemin={0}
-                                        aria-valuemax={100}
-                                        style={{ width: "90%" }}
-                                    >
-                                        <span>90%</span>
-                                    </div>
-                                </div>
-                            </div>
+                        <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                            <span className="skills-title-heading">MEAN Stack</span>
+                            
+                            <img className="mr-3" src="https://img.icons8.com/color/48/000000/mongodb.png" data-toggle="tooltip" title="MongoDB" />
+                            <img className="mr-3" src="images/ExpressJS.png" data-toggle="tooltip" title="Express.js"/>
+                            <img className="mr-3" src="https://img.icons8.com/color/48/000000/angularjs.png" data-toggle="tooltip" title="AngularJS"/>
+                            <img className="mr-3" src="https://img.icons8.com/color/48/000000/nodejs.png" data-toggle="tooltip" title="Node.js"></img>
                         </div>
 
-                        <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                            <div className="progress-wrap">
-                                <h3>Core Java</h3>
-                                <div className="progress">
-                                    <div
-                                        className="progress-bar color-2"
-                                        role="progressbar"
-                                        aria-valuenow={80}
-                                        aria-valuemin={0}
-                                        aria-valuemax={100}
-                                        style={{ width: "80%" }}
-                                    >
-                                        <span>80%</span>
-                                    </div>
-                                </div>
-                            </div>
+                        <div className="col-md-12 animate-box">
+                            <hr />
                         </div>
 
-                        <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                            <div className="progress-wrap">
-                                <h3>Git</h3>
-                                <div className="progress">
-                                    <div
-                                        className="progress-bar color-4"
-                                        role="progressbar"
-                                        aria-valuenow={90}
-                                        aria-valuemin={0}
-                                        aria-valuemax={100}
-                                        style={{ width: "90%" }}
-                                    >
-                                        <span>90%</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                            <span className="skills-title-heading">Supplementary Tech Stacks</span>
 
-                        <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                            <div className="progress-wrap">
-                                <h3>Spring Boot</h3>
-                                <div className="progress">
-                                    <div
-                                        className="progress-bar color-5"
-                                        role="progressbar"
-                                        aria-valuenow={70}
-                                        aria-valuemin={0}
-                                        aria-valuemax={100}
-                                        style={{ width: "70%" }}
-                                    >
-                                        <span>70%</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
-                            <div className="progress-wrap">
-                                <h3>AWS Essentials</h3>
-                                <div className="progress">
-                                    <div
-                                        className="progress-bar color-3"
-                                        role="progressbar"
-                                        aria-valuenow={60}
-                                        aria-valuemin={0}
-                                        aria-valuemax={100}
-                                        style={{ width: "60%" }}
-                                    >
-                                        <span>60%</span>
-                                    </div>
-                                </div>
-                            </div>
+                            <img className="mr-1" src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" data-toggle="tooltip" title="Core Java" />
+                            <img className="mr-3" src="https://img.icons8.com/color/48/000000/spring-logo.png" data-toggle="tooltip" title="Spring Boot" />
+                            <img className="mr-3" src="https://img.icons8.com/color/48/000000/amazon-web-services.png" data-toggle="tooltip" title="Amazon Web Services" />
+                            <img className="mr-1" src="https://img.icons8.com/color/48/000000/javascript.png" data-toggle="tooltip" title="Core JavaScript" />
+                            <img className="mr-3 react-app-logo" src="images/react-logo.svg" data-toggle="tooltip" title="React" />
                         </div>
                     </div>
                 </div>

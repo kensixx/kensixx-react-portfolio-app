@@ -14,11 +14,41 @@ export default class Sidebar extends Component {
 
                             <div className="social-contact">
                                 <ul>
-                                    <li><a href="https://www.facebook.com/kensixx04" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>
-                                    <li><a href="https://www.twitter.com/kensixx" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></li>
-                                    <li><a href="https://www.instagram.com/kensixx" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></li>
-                                    <li><a href="https://www.linkedin.com/in/ken-flake/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
-                                    <li><a href="mailto:ken.flake.webdev@gmail.com" target="_blank" rel="noopener noreferrer"><i className="icon-mail5" /></a></li>
+                                    <li>
+                                        <a href="https://www.facebook.com/kensixx04" target="_blank" rel="noopener noreferrer">
+                                            <i className="icon-facebook2" />
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://www.twitter.com/kensixx" target="_blank" rel="noopener noreferrer">
+                                            <i className="icon-twitter2" />
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://www.instagram.com/kensixx" target="_blank" rel="noopener noreferrer">
+                                            <i className="icon-instagram" />
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/ken-flake/" target="_blank" rel="noopener noreferrer">
+                                            <i className="icon-linkedin2" />
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="mailto:ken.flake.webdev@gmail.com" target="_blank" rel="noopener noreferrer">
+                                            <i className="icon-mail5" />
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://dev.to/kensixx" target="_blank" rel="noopener noreferrer">
+                                            <i className="fab fa-dev"></i>
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

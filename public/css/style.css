@@ -11,6 +11,25 @@
 *	Edit this section
 *
 * ======================================================= */
+
+/* React Logo Rotation */
+.react-app-logo {
+  animation: react-logo-spin infinite 7s linear;
+  height: 60px;
+  width: 60px;
+}
+
+@keyframes react-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* React Logo Rotation #END# */
+
+
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
@@ -36,7 +55,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: "Ubuntu", Georgia, serif;
   font-weight: 400;
   margin: 0 0 30px 0; }
 
@@ -103,14 +122,14 @@ figure {
     border-radius: 50%; }
   #colorlib-aside .position {
     display: block;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
     font-size: 12px;
     text-transform: uppercase; }
   #colorlib-aside #colorlib-logo {
     text-align: right;
     font-weight: 700;
     font-size: 22px;
-    margin-bottom: .5em;
+    margin-bottom: .25em;
     display: block;
     width: 100%; }
     #colorlib-aside #colorlib-logo a {
@@ -331,7 +350,7 @@ figure {
           margin: 0;
           padding: 0;
           color: black;
-          font-family: "Playfair Display", Georgia, serif; }
+          font-family: "Ubuntu", Georgia, serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
           font-size: 60px;
@@ -453,6 +472,16 @@ body.offcanvas {
   @media screen and (max-width: 768px) {
     .colorlib-heading {
       margin-bottom: 3em; } }
+
+.skills-title-heading {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  position: relative; 
+}
 
 .heading-meta {
   margin-bottom: 15px;
